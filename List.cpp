@@ -4,7 +4,7 @@
 #include "List.h"
 
 using namespace std;
-
+//function definitions
 List::List(void)
 {size = 0;}
 

@@ -2,7 +2,7 @@
 
 const int MaxSize = 15;
 typedef  int DataType;
-
+//class definition
 class List
 {
 
@@ -11,7 +11,7 @@ private:
 int size;
 DataType Item [MaxSize];
 
-public:
+public: //function prototypes
 List(void); //constructor -- can be overloaded; not a member function
 ~List(void);
 // data members - usually public, some may be private
